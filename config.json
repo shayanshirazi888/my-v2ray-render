@@ -1,0 +1,31 @@
+{
+  "inbounds": [
+    {
+      "port": 80,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+            "flow": "xtls-rprx-vision",
+            "level": 0,
+            "email": "shayan@render.com"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ray"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
